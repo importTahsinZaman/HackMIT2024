@@ -21,7 +21,7 @@ export default function App() {
 
   useEffect(() => {
     getData();
-    setInterval(getData, 15000);
+    setInterval(getData, 5000);
   }, []);
 
   if (data) {
